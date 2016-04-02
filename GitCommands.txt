@@ -341,6 +341,7 @@ GIT DIFF
 
 git diff			показывает разницу между staging index И рабочей директорией (что мы сделали, но еще не заstag'или)
 git diff first_file.txt	покажет изменения в конкретном файле
+git diff --numstat file.txt	показывает количество строк, измененных в конкретном файле
 git diff --staged		сравнивает staging index с репозиторием 
 git diff --color-words file.txt	показывает изменение в файле, подсвеченное цветом
 git diff origin/master..master	выводит разницу между локальной master и локальной копией master c удаленного репозитория
