@@ -504,6 +504,7 @@ new_br        *--*-----*--*--*--*
 Заначки (stashes)
 
 git stash save "changed mission title page"	сохраняет рабочую директорию и staging index в stash текущей ветки.
+git stash save -u "includes untracked files"	сохраняет новые файлы в заначку. Не помню, сохраняет ли остальные 
 
 Таким образом, мы «припрятываем» изменения и теперь можем спокойно переключать ветки — ничего не пропадет. Если у нас есть untracked files, это тоже можно сделать с помощью специальной команды вроде --include-untracked, подробности см. help
 
@@ -663,3 +664,4 @@ git config --global alias.logg "log --graph --decorate --oneline --abbrev-commit
 
  Created by Julia Vashchenko on 2015-12-14.
  Copyright 2015 Julia Vashchenko. All rights reserved.
+s
