@@ -655,13 +655,8 @@ git config --global alias.logg "log --graph --decorate --oneline --abbrev-commit
 
 
 
-
-
-
-
  Git Commands.txt
  Desktop
 
  Created by Julia Vashchenko on 2015-12-14.
  Copyright 2015 Julia Vashchenko. All rights reserved.
-s
